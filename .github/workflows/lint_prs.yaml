@@ -29,7 +29,6 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PYTHON_FLAKE8_CONFIG_FILE: '.github/linter-configs/.flake8'
           VALIDATE_PYTHON: false
           VALIDATE_PYTHON_BLACK: false
           VALIDATE_PYTHON_ISORT: false
